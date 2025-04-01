@@ -1,0 +1,132 @@
+/* Global reset & base font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #f4eee9;
+    color: #111;
+    line-height: 1.6;
+  }
+  
+  /* Side Nav */
+  .side-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    background: #f4eee9;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+  }
+  
+  .side-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 8px;
+    transition: opacity 0.2s;
+  }
+  
+  .nav-item span {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .nav-item:hover {
+    opacity: 0.85;
+  }
+  
+  /* Main content */
+  .main-content {
+    margin-left: 100px;
+    padding: 0;
+  }
+  
+  
+  
+  /* Section block w/ large number */
+  .section-block {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+    color: #fff;
+  }
+  
+  .section-title h2 {
+    font-size: 5rem;
+    margin: 0;
+  }
+  
+  .section-title h3 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Section content */
+  .section-content {
+    max-width: 700px;
+    padding: 4rem;
+    line-height: 1.7;
+  }
+  
+  .section-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .section-content ul {
+    padding-left: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .section-content li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-content p {
+    margin-top: 1rem;
+  }
+  
+  /* Thematic styling */
+  .accent-orange {
+    color: #ff3c00;
+    font-weight: bold;
+  }
+  
+  .highlight-block {
+    background-color: #ff3c00;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin: 2rem 0;
+  }
+

@@ -1,0 +1,42 @@
+.side-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    background: #f4eee9;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+  }
+  
+  .side-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    display: block; /* ✅ this line ensures the whole rectangle is clickable */
+  }
+  
+  
+  .nav-item span {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .nav-item:hover {
+    opacity: 0.85;
+  }
+  

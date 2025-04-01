@@ -1,0 +1,39 @@
+/* Section 04: Final Product – Tiny Images & Clean Layout */
+
+#final-product-content {
+    padding: 4rem 2rem;
+  }
+  
+  /* Row container */
+  .device-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    flex-wrap: nowrap;
+  }
+  
+  /* Each device column */
+  .device {
+    width: 80px;           /* 🔒 Forces image to be small */
+    flex: 0 0 80px;        /* 🔒 Prevent flex resizing */
+    text-align: center;
+  }
+  
+  /* Image itself */
+  .device img {
+    width: 100%;           /* Fill the 80px width */
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Caption under each image */
+  .caption {
+    font-size: 0.7rem;
+    color: #555;
+    margin-top: 0.3rem;
+  }
+  

@@ -1,0 +1,20 @@
+/* Title Screen */
+.title-screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4rem;
+  }
+  
+  .title-screen .logo {
+    font-size: 6rem;
+    font-weight: 800;
+  }
+  
+  .title-screen .subtitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 1rem;
+  }
+  

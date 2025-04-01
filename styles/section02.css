@@ -1,0 +1,97 @@
+/* Section 02: Current Problems */
+
+.section-content {
+    padding: 4rem 2rem;
+  }
+  
+  /* Intro */
+  .section-intro {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    max-width: 650px;
+  }
+  
+  /* Row for first two problems */
+  .problem-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  /* Side-by-side blocks */
+  .problem-row .problem-block {
+    flex: 1 1 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Centered block for Problem 4 */
+  .problem-block.centered {
+    max-width: 1000px;
+    margin: 0 auto 4rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  /* Shared reverse block (optional) */
+  .problem-block.reverse {
+    flex-direction: column;
+  }
+  
+  /* Text content */
+  .problem-text {
+    border-left: 4px solid #661fff;
+    padding-left: 1rem;
+    flex: 1;
+  }
+  
+  /* Image section */
+  .problem-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .problem-image img {
+    width: 70%;
+    height: auto;
+    max-height: 450px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Single caption */
+  .caption {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Dual captions */
+  .shared-caption .caption-pair {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+    flex-wrap: wrap;
+  }
+  
+  .shared-caption .caption-pair p {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  /* Theme accent */
+  .accent-purple {
+    color: #661fff;
+  }
+  

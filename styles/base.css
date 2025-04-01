@@ -1,0 +1,22 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #f4eee9;
+    color: #111;
+    line-height: 1.6;
+  }
+  
+  main {
+    margin-left: 100px;
+  }
+  
